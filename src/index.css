@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-full py-2 px-3 uppercase text-xl font-bold cursor-pointer tracking-wider 
+}
+.app{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 3rem;
+}
